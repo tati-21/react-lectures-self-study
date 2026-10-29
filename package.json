@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/ip-address-tracker/",
+    "build": "vite build --base=/react-lectures-self-study/",
     "preview": "vite preview"
   },
   "devDependencies": {
