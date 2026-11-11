@@ -395,30 +395,30 @@
  * Перевірка: `userProfile.id = 5;` - TS має підкреслити. Допиши в об'єкт `bio: 'hi'` - TS має пропустити.
  */
 
-interface Address {
-  city: string;
-  zip: string;
-}
+// interface Address {
+//   city: string;
+//   zip: string;
+// }
 
-interface UserProfile {
-  readonly id: number;
-  nickname: string;
-  avatar: null | string;
-  address: Address;
-  tags: string[];
-  bio?: string;
-}
+// interface UserProfile {
+//   readonly id: number;
+//   nickname: string;
+//   avatar: null | string;
+//   address: Address;
+//   tags: string[];
+//   bio?: string;
+// }
 
-export const userProfile: UserProfile = {
-  id: 12,
-  nickname: 'tati',
-  avatar: null,
-  address: {
-    city: 'Warsaw',
-    zip: '00-001',
-  },
-  tags: ['react', 'ts'],
-  bio: 'hi',
-};
+// export const userProfile: UserProfile = {
+//   id: 12,
+//   nickname: 'tati',
+//   avatar: null,
+//   address: {
+//     city: 'Warsaw',
+//     zip: '00-001',
+//   },
+//   tags: ['react', 'ts'],
+//   bio: 'hi',
+// };
 
-// userProfile.id = 5;
+// // userProfile.id = 5;
